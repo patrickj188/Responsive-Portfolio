@@ -1,0 +1,208 @@
+body {
+    background-image: url(sayagata-400px.png);
+}
+nav {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: black;
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 87px;
+    text-transform: uppercase;
+    background-color: white;
+    border-bottom: 3px solid #777777; 
+    position: absolute;
+    top: 0;
+}
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin-right: 250px;
+    margin-top: 40px;
+    float: right;
+    display: block;
+    padding: 10px 0;
+}
+nav li {
+    float: right;
+}
+li a {
+    
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 7.5px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+li a:hover {
+    background-color: lightgray;
+}
+h2 {
+    margin-right: auto; 
+    margin-left:  auto; 
+    max-width: 940px; 
+    padding: 0 10px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+    font-weight: bold;
+}
+section {
+    order: 3;
+    border: .1px;
+    max-width: 940px;
+    border-color: lightgray;
+    border-style: solid;
+    margin-right: auto; 
+    margin-left:  auto; 
+    margin-top: 100px;
+    padding-right: 10px; 
+    padding-left:  10px;
+    padding-bottom: 40px;
+    background: #ffffff;
+}
+.container {
+    display: grid;
+    grid-area: auto;
+    grid-template-columns: 350px 350px 350px;
+    padding: 10px;
+    grid-column: 150px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    padding: 10px;
+    justify-items: center;
+  }
+  #hangman {
+      height: 150px;
+      width: 250px;
+      background-image: url(../images/p1.jpg);
+      background-size: 250px 150px;
+      padding: 20px 0 20px 0;
+      text-align: center;
+      margin: 10px 2px;
+  }
+  #hangman:hover {
+    transform: scale(1.1, 1.1);
+  }
+  #hangman p {
+      margin-top: 80px;
+      text-align: center;
+      padding: 10px 0;
+      background: #4aaaa5;
+  }
+  #RPGgame {
+      height: 150px;
+      width: 250px;
+      background: #888;
+      padding: 20px 0 20px 0;
+      text-align: center;
+      margin: 10px 2px;
+      background-image: url(../images/streets.jpg);
+      background-size: 250px 150px;
+  }
+#RPGgame:hover {
+    transform: scale(1.1, 1.1);
+  }
+  #RPGgame p {
+      margin-top: 80px;
+      text-align: center;
+      padding: 10px 0;
+      background: #4aaaa5;
+  }
+  #TriviaGame {
+    height: 150px;
+    width: 250px;
+    background: #888;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    margin: 10px 2px;
+    background-image: url(../images/char.jpg);
+    background-size: 250px 150px;
+  }
+  #TriviaGame:hover {
+    transform: scale(1.1, 1.1);
+  }
+  #TriviaGame p {
+    margin-top: 80px;
+    text-align: center;
+    padding: 10px 0;
+    background: #4aaaa5;
+}
+  #RutgersInfoWidget {
+    height: 150px;
+    width: 250px;
+    background: #888;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    margin: 10px 2px;
+    background-image: url(../images/color.jpg);
+    background-size: 250px 150px;
+}
+#RutgersInfoWidget:hover {
+    transform: scale(1.1, 1.1);
+  }
+#RutgersInfoWidget p {
+    margin-top: 80px;
+    text-align: center;
+    padding: 10px 0;
+    background: #4aaaa5;
+}
+#RockPaperScissors {
+    height: 150px;
+    width: 250px;
+    background: #888;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    margin: 10px 2px;
+    background-image: url(../images/lake.jpg);
+    background-size: 250px 150px;
+}
+#RockPaperScissors:hover {
+    transform: scale(1.1, 1.1);
+  }
+#RockPaperScissors p {
+    margin-top: 80px;
+    text-align: center;
+    padding: 10px 0;
+    background: #4aaaa5;
+}
+  * {
+    box-sizing: border-box;
+  }
+  .copy {
+      z-index: 2;
+      position: relative;
+  }
+  .footer {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background: #777777;
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+    font-size: 9px;
+    left: 0;
+    bottom: 0;
+  }
+  .name {
+    background-color: #4aaaa5;
+    background-size: 20px;
+    width: 150px;
+    height: 45;
+    text-align: center;
+    margin-left: 240px;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 20px 5px;
+    margin-top: 0;
+    float: left;
+    margin-bottom: 2px; 
+}
+ .copy {
+     align: center;
+     padding: 1px;
+ }

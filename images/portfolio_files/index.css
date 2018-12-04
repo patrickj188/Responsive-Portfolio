@@ -1,0 +1,65 @@
+body {
+    background-image: url(sayagata-400px.png);
+}
+
+.nav  {
+    float: right;
+  
+  
+}
+.container {
+    flex-wrap: wrap;
+    
+}
+.navbar-brand {
+    margin-left: 240px;
+    background:#4aaaa5;
+    color: white;
+    padding: 20px 5px 50px 5px;
+
+}
+.navbar-nav {
+    margin-right: 240px;
+    padding-top: 20px;
+  
+}
+}
+li a {   
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 7px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    background-color: lightgray;
+}
+.navbar-default {
+    border-bottom: #777777 3px solid;
+}
+.jumbotron-fluid {
+    max-width: 960px;
+    margin-left: 240px;
+    padding: 0 10px;
+    flex-wrap: wrap;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.display-4 {
+    border-bottom: #777777 1px solid;
+}
+.photoME {
+    float: left;
+    padding: 0 10px;
+    flex-wrap: wrap;
+}
+.lead {
+    flex-wrap: wrap;
+}
+.footer {
+    height: 40px;
+    background-color: lightgray;
+}
